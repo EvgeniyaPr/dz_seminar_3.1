@@ -5,3 +5,21 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
+
+Console.WriteLine("Введите число a: ");
+int numberA = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число b: ");
+int numberB = Convert.ToInt32(Console.ReadLine());
+
+int max = numberA;
+
+if (numberA < numberB) max = numberB;
+{
+  Console.Write("max = ");
+  System.Console.WriteLine(max);
+}
+else if (numberA > numberB) max = numberA;
+{
+    Console.Write("max = ");
+    System.Console.WriteLine(max);
+}
