@@ -15,11 +15,14 @@ int max = numberA;
 
 if (numberA < numberB) max = numberB;
 {
-  Console.Write("max = ");
-  System.Console.WriteLine(max);
+  Console.Write("max = " + max);
 }
-else if (numberA > numberB) max = numberA;
+else if (numberA > numberB) max = numberA; 
 {
-    Console.Write("max = ");
-    System.Console.WriteLine(max);
+  Console.Write("max = " + max);
 }
+else (numberA + numberB);
+{
+  Console.Write("Числа равны");
+}
+   
