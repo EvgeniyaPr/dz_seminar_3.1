@@ -21,7 +21,7 @@ else if (numberA > numberB) max = numberA;
 {
   Console.Write("max = " + max);
 }
-else (numberA + numberB);
+else (numberA == numberB);
 {
   Console.Write("Числа равны");
 }

@@ -20,3 +20,4 @@ if (max < numberC) max = numberC;
 {
   Console.Write("max = " + max);
 }
+
