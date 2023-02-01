@@ -5,7 +5,12 @@
 // 8 -> 2, 4, 6, 8
 
 System.Console.WriteLine("Введите число N: ");
-int N = Math.Abs(Convert.ToInt32(Console.ReadLine()));
+int N = Convert.ToInt32(Console.ReadLine());
+
+if (N < 0)
+{
+    N*=-1;
+}
 
 for(int i = 2; i <=N; i = i + 2)
 {

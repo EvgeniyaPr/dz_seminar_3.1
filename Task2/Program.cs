@@ -17,12 +17,12 @@ if (numberA < numberB) max = numberB;
 {
   Console.Write("max = " + max);
 }
-else if (numberA > numberB) max = numberA; 
-{
-  Console.Write("max = " + max);
-}
-else (numberA == numberB);
+
+else if (numberA == numberB);
 {
   Console.Write("Числа равны");
 }
-   
+else
+{
+  Console.Write("max = " + max);   
+}
